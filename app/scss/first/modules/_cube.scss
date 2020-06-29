@@ -1,0 +1,21 @@
+
+.cube {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.05);
+	z-index: 0;
+
+	&_s {
+		width: 100px;
+		height: 100px;
+	}
+
+	&_m {
+		width: 300px;
+		height: 300px;
+	}
+
+	&_l {
+		width: 500px;
+		height: 300px;
+	}
+}

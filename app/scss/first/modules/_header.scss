@@ -1,0 +1,39 @@
+
+.header {
+	font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+
+    &_right {
+        text-align: right;
+    }
+
+    &_white {
+    	color: #fff;
+    }
+
+    &_balanced {
+    	color: $balanced;
+    }
+
+    &_bright {
+        color: $bright;
+    }
+
+    &_small {
+    	font-size: 36px;
+    	line-height: 42px;
+    }
+
+    &_medium {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    &_big {
+        font-size: 100px;
+        line-height: 110px;
+    }
+}

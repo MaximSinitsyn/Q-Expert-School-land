@@ -1,0 +1,42 @@
+
+.text {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 300;
+
+	&_small {
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	&_medium {
+		font-size: 28px;
+		line-height: 28px;
+	}
+
+	&_xmedium {
+		font-size: 36px;
+    	line-height: 50px;
+	}
+
+	&_big {
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+	&_bold {
+		font-weight: bold;
+	}
+
+	&_uppercase {
+		text-transform: uppercase;
+	}
+
+	&_right {
+		text-align: right;
+	}
+
+	&_white {
+		color: #fff;
+	}
+}

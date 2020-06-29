@@ -1,0 +1,41 @@
+.block {
+	height: 100%;
+    width: 100%;
+	padding: 40px;
+	box-shadow: 5px 5px 24px 0 rgba(0, 0, 0, 0.15);
+	background: #fff;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+	&_bigOffset {
+		padding: 60px;
+	}
+
+	&_noneOffset {
+		padding: 0;
+	}
+
+	&_right {
+		align-items: flex-end;
+	}
+
+	&_colored {
+		box-shadow: 5px 5px 24px 0 rgba(0, 0, 0, 0.40);
+	}
+
+	&_orange {
+		background: linear-gradient(47deg, #ffa800, #f08404);
+	}
+
+	&_head {
+		background: url('../img/head_img.jpg');
+		background-size: cover;
+	}
+
+	&_job {
+		background: url('../img/img.jpg');
+		background-size: cover;
+	}
+}

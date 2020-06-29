@@ -1,0 +1,27 @@
+
+.button {
+	background: $balanced;
+	border-radius: 3px;
+	padding: 10px 30px;
+	font-size: 20px;
+	line-height: 42px;
+	appearance: none;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	transition: 300ms 0ms linear;
+
+	&_wide {
+		width: 100%;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+		background: $balanced-dark;
+	}
+}

@@ -1,0 +1,25 @@
+
+.modal {
+	&__block {
+		padding: 42px;
+	}
+
+	&__title {
+		text-align: center;
+	    border-bottom: 1px dashed #ccc;
+	    padding-bottom: 21px;
+	    margin-bottom: 21px;
+	}
+
+	&__context {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	&__button {
+		width: 300px;
+    	margin-top: 42px;
+	}
+}
+

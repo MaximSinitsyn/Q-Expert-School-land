@@ -1,0 +1,33 @@
+
+.footer {
+	margin-top: 80px;
+	display: flex;
+    justify-content: space-between;
+    position: relative;
+
+	&__left {
+		min-width: 700px;
+    	position: relative;
+    	left: 120px;
+    	z-index: 11;
+	}
+
+	&__right {
+		height: 270px;
+    	min-width: 420px;
+    	z-index: 10;
+    	position: relative;
+    	right: 100px;
+	}
+
+	&__logoWrapper {
+		border-top: 1px solid $balanced;
+		position: relative;
+    	top: 120px;
+    	padding: 20px 40px;
+	}
+
+	&__logo {
+		width: 325px;
+	}
+}

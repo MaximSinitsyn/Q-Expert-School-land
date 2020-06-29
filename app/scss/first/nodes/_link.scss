@@ -1,0 +1,16 @@
+
+.link {
+	display: inline;
+	text-decoration: none;
+	border-bottom: 1px dashed $bright;
+	color: $bright;
+	font-size: 20px;
+	line-height: 40px;
+	cursor: pointer;
+
+	&:hover {
+		border-bottom: 1px solid $bright;
+		text-decoration: none;
+		color: $bright;
+	}
+}

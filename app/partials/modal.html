@@ -1,0 +1,42 @@
+
+<div id="modal" class="uk-modal modal">
+    <div class="uk-modal-dialog modal__block">
+        <a class="uk-modal-close uk-close"></a>
+        <div class='modal__container'>
+            <div class='modalForm'>
+            	<div class='modal__title header header_small'>
+            		Оставить заявку
+            	</div>	
+            	<div class='modal__context'>
+            		<div class='norequired'>
+            			Заполните поле Имя и Телефон
+            		</div>	
+            		<label class='input'>
+            			<div class='input__caption text text_small'>
+            				Имя
+            			</div>
+            			<input class='input__control' type='text' name='nameClient' required>
+            		</label>
+
+            		<label class='input'>
+            			<div class='input__caption text text_small'>
+            				Почта
+            			</div>
+            			<input class='input__control' type='text' name='emailClient' required>
+            		</label>
+
+            		<label class='input'>
+            			<div class='input__caption text text_small'>
+            				Телефон
+            			</div>
+            			<input class='input__control phone' type='text' name='phoneClient' required>
+            		</label>
+
+            		<div class='modal__button'>
+            			<button class='button button_wide' onclick='send_form("modalForm")'>Отправить заявку</button>
+            		</div>
+            	</div>	
+            </div>
+        </div>	
+    </div>
+</div>

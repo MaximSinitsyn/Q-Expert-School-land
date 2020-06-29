@@ -1,0 +1,31 @@
+
+.goal {
+	margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+	&__right {
+		width: 740px;
+	    height: 500px;
+	    right: 80px;
+	    position: relative;
+	    z-index: 10;
+	}
+
+	&__header {
+		position: absolute;
+	    width: 220px;
+	    top: 60px;
+	    left: -165px;
+	}
+
+	&__block {
+		padding: 55px 55px 55px 100px;
+	}
+
+	&__label {
+		border-left: 6px solid $bright;
+		padding-left: 40px;
+	}
+}
